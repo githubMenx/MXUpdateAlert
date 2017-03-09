@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB3AB7531E70E229004DA68D /* MXUpdateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3AB7521E70E229004DA68D /* MXUpdateAlert.m */; };
 		BB4E43131E6FF0EE00D546DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E43121E6FF0EE00D546DA /* main.m */; };
 		BB4E43161E6FF0EE00D546DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E43151E6FF0EE00D546DA /* AppDelegate.m */; };
 		BB4E43191E6FF0EE00D546DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E43181E6FF0EE00D546DA /* ViewController.m */; };
 		BB4E431C1E6FF0EE00D546DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4E431A1E6FF0EE00D546DA /* Main.storyboard */; };
 		BB4E431E1E6FF0EE00D546DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4E431D1E6FF0EE00D546DA /* Assets.xcassets */; };
 		BB4E43211E6FF0EE00D546DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4E431F1E6FF0EE00D546DA /* LaunchScreen.storyboard */; };
-		BB4E432B1E6FF14700D546DA /* MXUpdateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E432A1E6FF14700D546DA /* MXUpdateAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB3AB7501E70E229004DA68D /* MXSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSingle.h; sourceTree = "<group>"; };
+		BB3AB7511E70E229004DA68D /* MXUpdateAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXUpdateAlert.h; sourceTree = "<group>"; };
+		BB3AB7521E70E229004DA68D /* MXUpdateAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXUpdateAlert.m; sourceTree = "<group>"; };
 		BB4E430E1E6FF0EE00D546DA /* MXUpdateAlertExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXUpdateAlertExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4E43121E6FF0EE00D546DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB4E43141E6FF0EE00D546DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,9 +30,6 @@
 		BB4E431D1E6FF0EE00D546DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB4E43201E6FF0EE00D546DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB4E43221E6FF0EE00D546DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB4E43291E6FF14700D546DA /* MXUpdateAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXUpdateAlert.h; sourceTree = "<group>"; };
-		BB4E432A1E6FF14700D546DA /* MXUpdateAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXUpdateAlert.m; sourceTree = "<group>"; };
-		BB4E432C1E6FF1E900D546DA /* MXSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSingle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB3AB74F1E70E229004DA68D /* MXUpdateAlert */ = {
+			isa = PBXGroup;
+			children = (
+				BB3AB7501E70E229004DA68D /* MXSingle.h */,
+				BB3AB7511E70E229004DA68D /* MXUpdateAlert.h */,
+				BB3AB7521E70E229004DA68D /* MXUpdateAlert.m */,
+			);
+			name = MXUpdateAlert;
+			path = ../../MXUpdateAlert;
+			sourceTree = "<group>";
+		};
 		BB4E43051E6FF0EE00D546DA = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +73,7 @@
 		BB4E43101E6FF0EE00D546DA /* MXUpdateAlertExample */ = {
 			isa = PBXGroup;
 			children = (
-				BB4E43281E6FF10600D546DA /* MXUpdateAlert */,
+				BB3AB74F1E70E229004DA68D /* MXUpdateAlert */,
 				BB4E43141E6FF0EE00D546DA /* AppDelegate.h */,
 				BB4E43151E6FF0EE00D546DA /* AppDelegate.m */,
 				BB4E43171E6FF0EE00D546DA /* ViewController.h */,
@@ -82,16 +93,6 @@
 				BB4E43121E6FF0EE00D546DA /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BB4E43281E6FF10600D546DA /* MXUpdateAlert */ = {
-			isa = PBXGroup;
-			children = (
-				BB4E43291E6FF14700D546DA /* MXUpdateAlert.h */,
-				BB4E432A1E6FF14700D546DA /* MXUpdateAlert.m */,
-				BB4E432C1E6FF1E900D546DA /* MXSingle.h */,
-			);
-			path = MXUpdateAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +168,7 @@
 			files = (
 				BB4E43191E6FF0EE00D546DA /* ViewController.m in Sources */,
 				BB4E43161E6FF0EE00D546DA /* AppDelegate.m in Sources */,
-				BB4E432B1E6FF14700D546DA /* MXUpdateAlert.m in Sources */,
+				BB3AB7531E70E229004DA68D /* MXUpdateAlert.m in Sources */,
 				BB4E43131E6FF0EE00D546DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +326,7 @@
 				BB4E43271E6FF0EE00D546DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
